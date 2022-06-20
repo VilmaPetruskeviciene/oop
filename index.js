@@ -45,9 +45,21 @@ console.log(rex.intro());
 console.log('----------------------------------');
 
 const murkius = new Cat('Murkius', 'persian');
-const puma = new Dog('Puma', 'bengal');
+const puma = new Cat('Puma', 'bengal');
 
+console.log(murkius.voice());
+console.log(puma.voice());
 
+console.log(murkius.intro());
+console.log(puma.intro());
+
+console.log(murkius.getMouse());
+console.log(puma.getMouse());
+console.log(murkius.getMouse());
+console.log(murkius.getMouse());
+console.log(murkius.getMouse());
+console.log(puma.getMouse());
+console.log(puma.getMouse());
 
 console.log('----------------------------------');
 
