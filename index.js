@@ -66,11 +66,33 @@ console.log('----------------------------------');
 const amber = new GoldFish('Amber');
 const wish = new GoldFish('Wish');
 
+console.log(amber.intro());
+console.log(wish.intro());
+
+console.log(amber.getWish());
+console.log(amber.getWish());
+console.log(wish.getWish());
+console.log(amber.getWish());
+console.log(amber.getWish());
+console.log(wish.getWish());
+console.log(wish.getWish());
+console.log(wish.getWish());
+console.log(wish.getWish());
+
 
 console.log('----------------------------------');
 
 const paco = new Parrot('Paco');
 const diego = new Parrot('Diego');
 
+console.log(diego.intro());
+console.log(paco.intro());
+
+console.log(paco.voice(3));
+console.log(diego.voice(1));
+console.log(diego.voice(6));
+console.log(paco.voice(5));
+console.log(paco.voice(2));
+console.log(diego.voice(4));
 
 console.log('----------------------------------');

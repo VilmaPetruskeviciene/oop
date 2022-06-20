@@ -2,7 +2,7 @@ class Cat {
     constructor(name, breed) {
         this.name = name;
         this.breed = breed;
-        this.mouse = 0;
+        this.mouses = 0;
     }
 
     voice() {
@@ -14,8 +14,8 @@ class Cat {
     }
 
     getMouse() {
-        this.mouse += 1;
-        return `${this.name}: ${this.mouse} mouse/-s.`
+        this.mouses += 1;
+        return `${this.name}: ${this.mouses} mouse/-s.`
     }
 }
 
